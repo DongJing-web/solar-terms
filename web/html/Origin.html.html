@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>二十四节气划分</title>
+	<link rel="stylesheet" href="../css/css-index.css">
+	<script src="../js/echarts-柱状图-折线图-饼图.js"></script>
+</head>
+<br>
+
+<body>
+
+	<div id="header">
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">节气和物候</a></li>
+				<li><a href="Origin.html">来源和影响</a></li>
+			</ul>
+		</div>
+
+		<div class="h1Word">
+		<h1>二十四节气</h1>
+		</div>
+
+		<div>
+		<img src="../../Solar term-img/back-img/2-index.jpg" class="navImg" alt="navImg">
+		</div>
+	</div>
+	
+<!--===起源发展===-->
+		<div class="development">
+		<div class="Affect">
+			<h2>对农业生产的影响</h2>
+			<p>二十四节气起源于黄河流域，<br>长期的农耕文明，四季分明的季节变化，<br>为人们认知农耕节气提供了源泉。<br>劳动人民经过不断观察，总结出了"二十四节气"。<br>二十四节气蕴含温度、湿度、降水等因素特点，揭示农事活动的特征。<br>而黄河流域的自然规律最能体现二十四节气的时节特征。</p>
+<!--			图一-降水-->
+			<div class="packAffect">
+				<h3>黄河流域近年年降水量规律</h3>
+				<script src="../js/echarts-柱状图-折线图-饼图.js"></script>
+				<div id="jiangshui" class="chart" style="width: 800px;height:500px;"></div>
+				<script src="../js/OD-黄河流域降水.js"></script>
+			</div>
+<!--=========图表基础js=====-->
+			<script src="../js/echarts-柱状图-折线图-饼图.js"></script>
+			
+<!--			图二-温度-->
+			<div class="packAffect">
+				<h3>黄河流域近年平均时节温度</h3>
+				<script src="../js/echarts-柱状图-折线图-饼图.js"></script>
+				<div id="wendu" class="chart" style="width: 800px;height:500px;"></div>
+				<script src="../js/OD-黄河流域温度.js"></script>
+			</div>
+			
+			<div><p>从降水量来看，夏季雨量丰沛，<br>在立夏至立秋这段时间，农作物生长迅速，但同时要注意防范洪涝灾害。<br>从温度来看，立春后温度回升，预示雪季过去，雨季到来，万物开始苏醒。<br>立春、立夏、立秋、立冬中”立“是开始的意思，务农讲究不误农时。<br>”四立“正好留出农事活动前期准备的必要时间。</p></div>
+		</div>
+	</div>	
+	
+		<div class="Origin">
+			<div class="packOrigin">
+				<div class="textOrigin">
+					<h2>二十四节气发展历史脉络</h2>
+					<p>历过漫长的历史发展过程<br>二十四节气逐渐确立和完善，<br>这是中华民族劳动人民长期经验的积累成果和智慧的结晶，<br>对于指导中国人民的生产生活有重要意义。</p>
+				</div>
+<!--   有误的历史发展柱状图
+    			<div id="laiyuanfazhan" class="chart" style="width: 600px;height:400px;"></div>
+				<script src="../js/OD-来源发展.js"></script>
+-->
+				
+				
+				<div>
+					<img class="imgDev" src="../../Solar term-img/back-img/历史发展3.png" alt="节气发展历史脉络">
+				</div>
+			</div>
+				
+			<div class="packOrigin">
+				<div class="textOrigin">
+					<h3>测土深，正日影，求地中，验四时</h3>
+					<p>最初，古人通过观察太阳与时间的关系，发明了圭表测影法。<br>"土圭测影"方法的要义是"树八尺之表，夏至日，景长尺有五寸(相当于北回归线上立杆无影);<br>冬至日，景长一丈三尺五寸"(即竖起高为8尺的标杆，<br>在夏至日观测，中午的日影是1.5尺，冬至日中午的日影是13.5尺)</p>
+				</div>
+				<!-- 为 OD-土圭测影 准备一个具备大小的 DOM -->
+    			<div id="tuguiceying" class="chart" style="width: 400px;height:300px;"></div>
+				<script src="../js/OD-土圭测影.js"></script>
+			</div>
+			
+			<div class="packOrigin">
+				<div class="textOrigin">
+					<h3>地球公转</h3>
+					<p>现行的"二十四节气"来自于三百多年前依据太阳黄经度数划分的方法,<br>从黄经0°算起，地球每经过15°所经历的时日称作一个节气</p>
+				</div>
+				<img class="imgOrigin" src="../../Solar term-img/back-img/地球公转.png" alt="地球围绕太阳公转">
+			</div>
+		</div>
+	
+<!--	<iframe  src="Affect.html" width="100%" height="100%"></iframe>-->
+	
+	
+	<div id="footer">
+		<hr>
+		<p>联系我们:</p>
+		<div class="email">
+		<a href="mailto:2315492645qq.com"><img src="../../Solar term-img/back-img/邮件.png" alt="邮件"></a>
+		</div>
+	</div>
+</body>
+</html>
