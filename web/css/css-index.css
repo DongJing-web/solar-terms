@@ -1,0 +1,118 @@
+@charset "utf-8";
+body{background: #DFD1FB;
+	margin: 0;padding: 0;}
+*{text-align: center;
+	}
+p{letter-spacing: .5em;
+	padding-bottom: 2em;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+h1{text-align: center;
+	letter-spacing: 2em;
+	width: 100%;}
+h2{background: #639a67;
+	padding: .5em 3em;
+	font-size: 25px;
+/*	border-radius: 10px;*/
+}
+h3{
+	border-left: solid #00821F 55px;
+	border-right: solid #00821F 55px;
+	border-bottom: solid #00821F 1px;
+	}
+p{font-size: 12px;
+	line-height: 2em;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+hr{color: #0D7A03;}
+
+
+/*---导航部分-------------------------*/
+#header{margin-top: 0;
+		height:auto;}
+
+.h1Word{text-align: center;	
+		margin-top: 60px;
+}
+
+.nav{
+	height: 50px;
+	background: #DFD1FB;
+	opacity: .8;
+	border-bottom: solid #246C03 1.5px;
+	text-align: center;
+	position: fixed;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	top: 0;
+/*设置层级属性，使导航栏始终在顶层*/
+	z-index: 1000;
+	}
+.nav li{font-size: 12px;
+		list-style-type: none;
+		display:inline;
+		padding: .5em 5em;
+		background: #95D74A;
+		border-radius: 8px;
+		box-shadow: 0 2px 2px #9B7468;
+		}
+/*去掉超链接下划线*/
+.nav li a{text-decoration: none;}
+
+
+.navImg{width: 100%;
+		height: auto;
+		}
+
+
+/*---主体部分-------------------------*/
+#container{
+		padding-top: 100px;}
+.Origin,.development{width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid #175400 1px;
+		border-top: none;
+		border-bottom: none;}
+.imgDev{width: 660px;}
+.packOrigin{text-align: center;}
+.chart{width: 400px;margin-left: auto;margin-right: auto;}
+.imgOrigin{width: 500px;height: auto;}
+.imgFrame{
+/*设置盒子居中，这种方法只有设置了width的情况下才适用*/
+		width: 60em;
+		margin-left:auto; margin-right:auto;}
+.imgFrame img{width: 250px;
+			height: 350px;
+/*			box-shadow:0 0 3px 3px black;*/
+			margin: 10px 20px 10px 20px;
+			border: solid #7BBACD 3px;
+			padding: 3px;
+			/*设置阴影*/
+			box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			moz-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			o-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			}
+.imgFrame ul li{display: inline;}
+#footer{height: 70px;width: 100%;}
+#footer img{width: 30px;}
+#footer p{font-size: 10px;;}
+.email{width: 30px;
+		margin: 0 auto;}
+
+
+/*网页整体外观样式*/
+.development,.Origin{
+			margin-top: 0;
+			border: thick #4A0001 4px;
+			border-top: none;
+			background:#d8ebb5;
+/*
+			box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+*/
+			moz-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			o-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset; }
+
+/* CSS Document */
+

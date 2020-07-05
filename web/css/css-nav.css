@@ -1,0 +1,69 @@
+@charset "utf-8";
+body{background: #DFD1FB;
+	margin: 0;padding: 0;}
+p,h2,h3{text-align: center;
+	}
+/*---导航部分-------------------------*/
+#header{margin-top: 0;
+		height:auto;}
+.h1Word{text-align: center;
+		padding-top: 40px;}
+#nav{
+/*设置固定定位居中*/
+	position: fixed;
+	left: 0;right: 0;
+	margin: auto;
+	background: #DFD1FB;
+	padding: 5px 12px;
+	border-bottom: solid #1FA92B 1px;
+/*	固定层级关系，使导航栏始终在上面*/
+	z-index: 1000;}
+#nav ul{
+	width: 770px;
+	display: table;
+	margin-left:auto; margin-right:auto;}
+#nav li{display: inline;
+		margin:0 3em;}
+.navImg{width: 100%;
+		height: auto;
+		}
+
+
+/*---主体部分-------------------------*/
+#container{
+		padding-top: 100px;}
+.Origin,.Affect{width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid #0D6366 1px;
+		border-top: none;}
+.imgOrigin{width: 500px;height: 250px;}
+.packOrigin{text-align: center;}
+.chart{width: 400px;margin-left: auto;margin-right: auto;}
+
+
+
+.imgFrame{
+/*设置盒子居中，这种方法只有设置了width的情况下才适用*/
+		width: 60em;
+		margin-left:auto; margin-right:auto;}
+.imgFrame img{width: 250px;
+			height: 350px;
+/*			box-shadow:0 0 3px 3px black;*/
+			margin: 10px 20px 10px 20px;
+			border: solid #7BBACD 3px;
+			padding: 3px;
+			/*设置阴影*/
+			box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			moz-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			o-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+			}
+.imgFrame ul li{display: inline;
+				}
+
+
+
+
+/* CSS Document */
+
