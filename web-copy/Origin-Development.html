@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>二十四节气起源和发展</title>
+	<link rel="stylesheet" href="../css/css-Origin-Development.css">
+	<script src="../js/echarts-柱状图-折线图-饼图.js"></script>
+	
+<!--	<script src="../js/echarts-树形图-旭日图.js"></script>-->
+</head>
+
+<body>
+	<div id="header">
+	</div>
+	
+	<div id="container">
+<!--
+		<div class="overallDivision">
+			<div id="zhengtihuafen" style="width: 600px;height:400px;"></div>
+			<script src="../js/OD-旭日图整体划分.js"></script>
+			
+		</div>
+-->
+		
+		
+		<div class="originFirst">
+			
+			<h2>测土深，正日影，求地中，验四时</h2>
+			<p>二十四节气，是上古农耕文明的产物，蕴含了中华民族悠久的文化内涵和历史积淀。它最初是依据斗转星移制定，古人根据北斗七星在夜空中的指向，指导农业生产不误时节。西汉武帝时期将"二十四节气"纳入《太初历》作为指导农事的历法补充，采用圭表测影法在黄河流域测定节气</p>
+			<!-- 为 OD-土圭测影 准备一个具备大小的 DOM -->
+    		<div id="tuguiceying" style="width: 600px;height:500px;"></div>
+			<script src="../js/OD-土圭测影.js"></script>
+		</div>
+		
+		<div class="originSecond">
+			<p>现行的"二十四节气"来自于三百多年前依据太阳黄经度数划分的方法</p>
+			<h2>从黄经0°算起，地球每经过15°所经历的时日称作一个节气</h2>
+			<img alt="地球围绕太阳公转">
+		</div>
+		
+		<div class="development">
+			<h2>二十四节气发展历史脉络</h2>
+			<div id="laiyuanfazhan" style="width: 1000px;height:800px;"></div>
+			<script src="../js/OD-来源发展.js"></script>
+			<div id="developTime"></div>
+		</div>
+		
+<!--四季划分-->
+		<div class="season">
+			<p>现实生活中，春、夏、秋、冬四季在我国各地区开始的时间并不相同，四季的长短也不一致。因此，用温度参数来划分四季更为合理。</p>
+			<div id="sijihuafen" style="width: 600px;height:400px;"></div>
+			<img alt="四季划分" title="把平均气温在22℃以下、10℃以上的时候定义为春季和秋季，把平均气温在22℃以上的时候定义为夏季，平均气温在10℃以下的时候定义为冬季">
+			<script src="../js/OD-四季划分.js"></script>
+		</div>
+		
+		<div>
+<!--===树形图、旭日图===-->
+			<script src="../js/echarts-树形图-旭日图.js"></script>
+			<h2>节气和物候，做成树形图，节点有链接</h2>
+			<div id="shuxingtuFirst" style="width: 800px;height:500px;"></div>
+			<div id="shuxingtuSecond" style="width: 800px;height:500px;"></div>
+			<script src="../js/OD-具体划分.js"></script>
+		</div>
+		
+		
+		<div class="overallDivision">
+			<div id="zhengtihuafen" style="width: 1000px;height:800px;"></div>
+			<script src="../js/OD-旭日图整体划分.js"></script>
+			
+		</div>
+	</div>
+				<div class="packAffect">
+				<div id="wendu" class="chart" style="width: 800px;height:500px;"></div>
+				<script src="../js/OD-黄河流域温度.js"></script>
+			</div>
+	
+	<div id="footer">
+	</div>
+</body>
+</html>
